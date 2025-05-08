@@ -24,9 +24,9 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <nav :class="['w-full transition-colors duration-500 z-50', isSticky ? 'fixed top-0 bg-[#0A2240] shadow-lg' : 'absolute bg-transparent ']">
-    <div class="flex justify-between max-w-[1150px] w-full mx-auto py-7.5 px-2">
-      <div class=" flex items-center h-3 md:h-12 text-white ">
+  <nav :class="['w-full transition-colors duration-500 z-50', isSticky ? 'fixed top-0 bg-[#0A2240] shadow-lg' : 'absolute bg-transparent '] ">
+    <div class="flex justify-between max-w-[1150px] w-full mx-auto py-7.5 px-2 text-white">
+      <div class=" flex items-center h-3 md:h-12  ">
        <!-- <img src="/src/assets/logo.png" alt=""> -->
        <span>PH CORE SOLUTIONS</span>
       </div>
