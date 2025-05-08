@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --deep-navy: #0A2240;
+  --bright-blue: #2163AF;
+}
+.bg-gradient-navy-blue {
+  background: linear-gradient(135deg, var(--deep-navy) 0%, var(--bright-blue) 100%);
+}
